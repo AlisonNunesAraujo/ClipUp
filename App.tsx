@@ -1,12 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import Login from './src/pages/login';
+import { NavigationContainer } from '@react-navigation/native';
+import PriveRouts from './src/routs/priveRouts';
+
+
 
 export default function App() {
   return (
-    <>
-      <Login/>
+    <NavigationContainer>
+       <PriveRouts />
       <StatusBar style="auto" />
-    </>
+    </NavigationContainer>
   );
 }
 

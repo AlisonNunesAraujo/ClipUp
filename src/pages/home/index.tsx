@@ -1,8 +1,9 @@
 import { View,Text } from 'react-native';
+import { style } from './styles';
 
 export default function Home() {
  return (
-   <View>
+   <View style={style.container}>
     <Text>Ola</Text>
    </View>
   );
