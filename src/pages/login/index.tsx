@@ -8,12 +8,12 @@ export default function Login() {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Lógica de login aqui
+
     console.log('Login com:', email, password);
   };
 
   const handleForgotPassword = () => {
-    // Lógica para recuperar senha
+
     console.log('Recuperar senha');
  return (
    <View style={style.container}>
