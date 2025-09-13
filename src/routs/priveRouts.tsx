@@ -7,9 +7,6 @@ export default function PriveRouts() {
     const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   return(
-
     isLoggedIn ? <StackNav /> : <Login />
-
   )
-
 }
