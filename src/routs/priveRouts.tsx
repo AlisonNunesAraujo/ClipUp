@@ -4,7 +4,7 @@ import StackNav from "./stackNav";
 
 
 export default function PriveRouts() {
-    const [isLoggedIn, setIsLoggedIn] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return(
 

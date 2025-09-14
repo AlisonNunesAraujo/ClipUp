@@ -25,7 +25,6 @@ export const style = StyleSheet.create({
         borderRadius: 12,
         alignItems: "center",
         justifyContent: "center",
-        marginBottom: 12,
     },
     
     logoPlayIcon: {
@@ -39,10 +38,11 @@ export const style = StyleSheet.create({
         fontWeight: "600",
         color: "#007AFF",
         letterSpacing: 0.5,
+        fontFamily: "Arial",
     },
     
     formContainer: {
-        width: "100%",
+        width: "90%",
     },
     
     input: {
@@ -63,12 +63,15 @@ export const style = StyleSheet.create({
         marginTop: 8,
         marginBottom: 16,
     },
-    
+    textAccountCreate:{
+        textAlign: "center",
+    },
     loginButtonText: {
         color: "#FFFFFF",
         fontSize: 16,
         fontWeight: "600",
         letterSpacing: 0.5,
+        fontFamily: "Arial",
     },
     
     forgotPasswordText: {
@@ -77,4 +80,6 @@ export const style = StyleSheet.create({
         textAlign: "center",
         fontWeight: "500",
     },
+
+    
 })
